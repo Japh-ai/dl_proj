@@ -3,7 +3,7 @@ import h5py
 import numpy as np
 import matplotlib.pyplot as plt
 
-    
+# File paths
 file_name = "../../data/raw/chunk2.hdf5"
 csv_file = "../../data/raw/chunk2.csv"
 
