@@ -1,7 +1,13 @@
-dl_proj
+Seismic Event Detection using CNN
 ==============================
+This repository contains the implementation of a convolutional neural network (CNN) for detecting seismic events using waveform data. The project includes loading, normalizing, training, and evaluating seismic waveform data and noise samples.
 
-deep learning projects.
+Features
+Waveform Data Preprocessing: Load and normalize waveform data stored in HDF5 format.
+CNN Model: A simple 1D CNN model implemented using PyTorch for classifying seismic events.
+Noise Data Generation: Synthetic noise data generated for training and testing purposes.
+Model Training: Train the model with seismic event data and noise samples.
+Model Saving & Loading: Save the trained model for later use without the need for retraining.
 
 Project Organization
 ------------
