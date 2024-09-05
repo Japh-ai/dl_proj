@@ -52,6 +52,13 @@ Project Organization
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
+#To do list
+1) Descubrir que features analiza en la serie de tiempo.
+2) Intentar con ruido real (chunk1)
+3) Probar con ruido de diferentes umbrales de amplitud.
+4) Mejorar performance con ese ruido
+5) Incluir datos de minas (clasificacion usando softmax entre ruido, eventos sismicos, eventos minas)
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
